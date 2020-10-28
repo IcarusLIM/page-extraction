@@ -1,0 +1,23 @@
+{
+    "isRoot": true,
+    "method": "table",
+    "listData": [{
+        "id": "92147549961982",
+        "listName": "xingming",
+        "method": "text",
+        "rawSelector": ".neiye > .Survey > .Search_box > .Expert_xq > .Expert_xq11",
+        "required": true,
+        "selector": ".Expert_xq11",
+        "xpath": ".//*[contains(concat(\" \",normalize-space(@class),\" \"),\" Expert_xq11 \")]"
+    }, {
+        "id": "92148240689730",
+        "listName": "jianjie",
+        "method": "text",
+        "rawSelector": ".neiye > .Survey > .Search_box > .Expert_xq > ul > li > span > span",
+        "required": true,
+        "selector": "ul > li > span > span",
+        "xpath": ".//ul/li/span/span"
+    }],
+    "selector": ".neiye > .Survey > .Search_box > .Expert_xq",
+    "xpath": ".//*[contains(concat(\" \",normalize-space(@class),\" \"),\" neiye \")]/*[contains(concat(\" \",normalize-space(@class),\" \"),\" Survey \")]/*[contains(concat(\" \",normalize-space(@class),\" \"),\" Search_box \")]/*[contains(concat(\" \",normalize-space(@class),\" \"),\" Expert_xq \")]"
+}
